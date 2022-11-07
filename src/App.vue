@@ -10,12 +10,17 @@ export default {
 </script>
 
 <template>
+  <div class="container">
+    <AppHero />
+    <AppTitle />
 
-  <AppTitle />
-  <AppHero />
+  </div>
 
 </template>
 
 <style scoped>
-
+.container {
+  width: 100%;
+  height: 100vh;
+}
 </style>
