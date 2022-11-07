@@ -1,10 +1,22 @@
 <!-- Creare un secondo componente AppHero, che visualizza un jumbotron. -->
 <script>
+export default {
+    data() {
+        return {
+            imageBanner: "sunset.jpg"
+        }
+    },
+    methods: {
+        getImage() {
+            return new URL(`../assets/img/${this.imageBanner}`, import.meta.url).href;
+        }
+    }
+}
 </script>
 
 <template>
     <div id="banner">
-        <img src="../assets/img/sunset.jpg" alt="Lorem picsum">
+        <img :src="getImage()" alt="Sunset painting">
     </div>
 </template>
 
