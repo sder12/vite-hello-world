@@ -4,7 +4,7 @@
 
 <template>
     <div id="banner">
-        <img src="https://picsum.photos/200/300" alt="Lorem picsum">
+        <img src="../assets/img/sunset.jpg" alt="Lorem picsum">
     </div>
 </template>
 
