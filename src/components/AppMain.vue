@@ -47,6 +47,6 @@
 
 .main>div {
     text-align: left;
-    padding: 1em 0;
+    padding: 1em 2em;
 }
 </style>
